@@ -234,7 +234,7 @@ $gRDA2->setBlock( 'Crew Names 20', blockConcat($gData,7,50,7) );
 $gRDA2->setBlock( 'Notes 7', blockConcat($gData,8,50,7) );
 
 
-$gRDA2->setBlock( 'Line 8', blockConcat($gData,2,57,9) );
+$gRDA2->setBlock( 'Line Eight', blockConcat($gData,2,57,9) );
 $gRDA2->setBlock( 'Crew Names 21', blockConcat($gData,3,57,9) );
 $gRDA2->setBlock( 'Crew Names 22', blockConcat($gData,4,57,9) );
 $gRDA2->setBlock( 'Crew Names 23', blockConcat($gData,5,57,9) );
