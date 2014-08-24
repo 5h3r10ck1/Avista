@@ -14,6 +14,8 @@ $gFile = 'CDA_Gas_Crew.xls';
 
 $gSheetName = 'Schedule';
 
+$remoteImages = true;
+
 $imagesServerPath = 'http://www.sphillipssite.com/';
 
 $imagesPath = 'images/';

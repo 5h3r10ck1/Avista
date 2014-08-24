@@ -120,9 +120,12 @@ function imageConvert($drawing,$type){
 		fclose($zipReader);
 		$extension = $drawing->getExtension();
 	}
+	
 	$myFileName = $imagesPath.$type.++$i.'.'.$extension;
+	
 	file_put_contents($myFileName,$imageContents);
-	ftp_file($myFileName);
+	
+	if($remoteImages)ftp_file($myFileName);
 
 	return $myFileName;
 
