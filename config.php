@@ -6,6 +6,14 @@ $user = 'AvistaRDA';
 
 $password = 'trms';
 
+$SMBUser = '';
+
+$SMBPass = '';
+
+$remoteFolder = "//remoteserver/remotefolder/";
+
+
+
 $eFile = 'Electric Crew.xlsx';
 
 $eSheetName = 'Sheet1';
