@@ -320,12 +320,12 @@ $gRDA3->setBlock( 'Notes 5', $gData->getCell('I89')->getCalculatedValue() );
 $gRDA3->setBlock( 'Message',$gData->getCell('C91')->getCalculatedValue() );
 
 
-for($x=1;$x<=3;$x++){
-	if( isset($images[$x-1]) ) $gRDA3->setBlock( "Web Picture ".$x, $imagesServerPath.$images[$x-1] );
-	else $gRDA3->setBlock( "Web Picture ".$x, '' );
+foreach ($images as $key => $image) {
+	if ($key <=3){
+		// echo "setting: Web Picture " . ($key+1) . " as: " . $imagesServerPath.$image;
+		$gRDA3->setBlock( "Web Picture ".($key+1), $imagesServerPath.$image );
+	}
 }
-
-
 
 
 

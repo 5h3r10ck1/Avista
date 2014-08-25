@@ -209,12 +209,12 @@ $eRDA2->setBlock( 'Crew Names 20', blockConcat($eData,5,48,4) );
 $eRDA2->setBlock( 'Notes 4', blockConcat($eData,6,48,4) );
 
 
-for($x=1;$x<=3;$x++){
-
-	if( isset($images[$x-1]) ) $eRDA2->setBlock( "Web Picture ".$x, $imagesServerPath.$images[$x-1] );
-	else $eRDA2->setBlock( "Web Picture ".$x, '' );
+foreach ($images as $key => $image) {
+	if ($key <=3){
+		// echo "setting: Web Picture " . ($key+1) . " as: " . $imagesServerPath.$image;
+		$eRDA2->setBlock( "Web Picture ".($key+1), $imagesServerPath.$image );
+	}
 }
-
 
 
 
