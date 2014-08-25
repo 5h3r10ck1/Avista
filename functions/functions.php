@@ -95,6 +95,8 @@ function imageConvert($drawing,$type){
 
 	global $imagesPath;
 
+	global $remoteImages;
+
 	if ($drawing instanceof PHPExcel_Worksheet_MemoryDrawing) {
 		ob_start();
 		call_user_func(
