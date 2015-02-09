@@ -86,7 +86,6 @@ foreach ($gData->getDrawingCollection() as $drawing) {
 
 
 
-
 $gRDA1->setTemplateName('Schedule');
 
 $gRDA1->Description = $gB1;
