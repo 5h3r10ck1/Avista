@@ -3,14 +3,11 @@
 include_once 'Classes/RDA.php';
 include_once 'config.php';
 include_once 'Classes/PHPExcel.php';
-include_once 'Classes/smbclient.php';
 include_once 'functions/functions.php';
 
 set_time_limit(0);
 $time_start = microtime(true);
 
-
-getSMBFiles($efile);
 
 try{
 $eType = PHPExcel_IOFactory::identify($eFile);

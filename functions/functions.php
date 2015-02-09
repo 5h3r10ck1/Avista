@@ -170,27 +170,3 @@ function ftp_file($file){
 	ftp_close($ftp_conn);
 
 }
-
-function getSMBFiles($file){
-
-	global $remoteFolder;
-	global $SMBUser;
-	global $SMBPass;
-	global $imagesPath;
-
-	$smbc = new smbclient ($remoteFolder, $SMBUser, $SMBPass);
-
-	if (!$smbc->get ($file, $imagesPath.$file))
-	{
-	    $log = fopen('errorLog.txt','a+');
-		$message = date('Y-m-d H:i:s').' ' .'Failed to retrieve file '.$file."\r\n";
-		fwrite($log, $message);
-		fclose($log);
-	    print "Failed to retrieve file:\n";
-	    
-	}
-	else
-	{
-	    echo "Transferred file successfully.<br>";
-	}
-}
