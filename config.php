@@ -1,6 +1,6 @@
 <?php
 
-$server = 'creative2.trms.com';
+$server = '10.0.1.17';
 
 $user = 'AvistaRDA';
 

@@ -105,45 +105,45 @@ $eRDA1->setBlock( 'Date 3',dateConvert($eData->getCell('D6')->getCalculatedValue
 $eRDA1->setBlock( 'Date 4',dateConvert($eData->getCell('E6')->getCalculatedValue()) );
 $eRDA1->setBlock( 'Date 5',dateConvert($eData->getCell('F6')->getCalculatedValue()) );
 
-$eRDA1->setBlock( 'Crew 1', blockConcat($eData,0,7,5) );
-$eRDA1->setBlock( 'Crew Names 1', blockConcat($eData,1,7,5) );
-$eRDA1->setBlock( 'Crew Names 2', blockConcat($eData,2,7,5) );
-$eRDA1->setBlock( 'Crew Names 3', blockConcat($eData,3,7,5) );
-$eRDA1->setBlock( 'Crew Names 4', blockConcat($eData,4,7,5) );
-$eRDA1->setBlock( 'Crew Names 5', blockConcat($eData,5,7,5) );
-$eRDA1->setBlock( 'Notes 1', blockConcat($eData,6,7,5) );
+$eRDA1->setBlock( 'Crew 1', blockConcat($eData,0,7,6) );
+$eRDA1->setBlock( 'Crew Names 1', blockConcat($eData,1,7,6) );
+$eRDA1->setBlock( 'Crew Names 2', blockConcat($eData,2,7,6) );
+$eRDA1->setBlock( 'Crew Names 3', blockConcat($eData,3,7,6) );
+$eRDA1->setBlock( 'Crew Names 4', blockConcat($eData,4,7,6) );
+$eRDA1->setBlock( 'Crew Names 5', blockConcat($eData,5,7,6) );
+$eRDA1->setBlock( 'Notes 1', blockConcat($eData,6,7,6) );
 
-$eRDA1->setBlock( 'Crew 2', blockConcat($eData,0,13,5) );
-$eRDA1->setBlock( 'Crew Names 6', blockConcat($eData,1,13,5) );
-$eRDA1->setBlock( 'Crew Names 7', blockConcat($eData,2,13,5) );
-$eRDA1->setBlock( 'Crew Names 8', blockConcat($eData,3,13,5) );
-$eRDA1->setBlock( 'Crew Names 9', blockConcat($eData,4,13,5) );
-$eRDA1->setBlock( 'Crew Names 10', blockConcat($eData,5,13,5) );
-$eRDA1->setBlock( 'Notes 2', blockConcat($eData,6,13,5) );
+$eRDA1->setBlock( 'Crew 2', blockConcat($eData,0,13,6) );
+$eRDA1->setBlock( 'Crew Names 6', blockConcat($eData,1,13,6) );
+$eRDA1->setBlock( 'Crew Names 7', blockConcat($eData,2,13,6) );
+$eRDA1->setBlock( 'Crew Names 8', blockConcat($eData,3,13,6) );
+$eRDA1->setBlock( 'Crew Names 9', blockConcat($eData,4,13,6) );
+$eRDA1->setBlock( 'Crew Names 10', blockConcat($eData,5,13,6) );
+$eRDA1->setBlock( 'Notes 2', blockConcat($eData,6,13,6) );
 
-$eRDA1->setBlock( 'Crew 3', blockConcat($eData,0,19,5) );
-$eRDA1->setBlock( 'Crew Names 11', blockConcat($eData,1,19,5) );
-$eRDA1->setBlock( 'Crew Names 12', blockConcat($eData,2,19,5) );
-$eRDA1->setBlock( 'Crew Names 13', blockConcat($eData,3,19,5) );
-$eRDA1->setBlock( 'Crew Names 14', blockConcat($eData,4,19,5) );
-$eRDA1->setBlock( 'Crew Names 15', blockConcat($eData,5,19,5) );
-$eRDA1->setBlock( 'Notes 3', blockConcat($eData,6,19,5) );
+$eRDA1->setBlock( 'Crew 3', blockConcat($eData,0,19,6) );
+$eRDA1->setBlock( 'Crew Names 11', blockConcat($eData,1,19,6) );
+$eRDA1->setBlock( 'Crew Names 12', blockConcat($eData,2,19,6) );
+$eRDA1->setBlock( 'Crew Names 13', blockConcat($eData,3,19,6) );
+$eRDA1->setBlock( 'Crew Names 14', blockConcat($eData,4,19,6) );
+$eRDA1->setBlock( 'Crew Names 15', blockConcat($eData,5,19,6) );
+$eRDA1->setBlock( 'Notes 3', blockConcat($eData,6,19,6) );
 
-$eRDA1->setBlock( 'Crew 4', blockConcat($eData,0,25,5) );
-$eRDA1->setBlock( 'Crew Names 16', blockConcat($eData,1,25,5) );
-$eRDA1->setBlock( 'Crew Names 17', blockConcat($eData,2,25,5) );
-$eRDA1->setBlock( 'Crew Names 18', blockConcat($eData,3,25,5) );
-$eRDA1->setBlock( 'Crew Names 19', blockConcat($eData,4,25,5) );
-$eRDA1->setBlock( 'Crew Names 20', blockConcat($eData,5,25,5) );
-$eRDA1->setBlock( 'Notes 4', blockConcat($eData,6,25,5) );
+$eRDA1->setBlock( 'Crew 4', blockConcat($eData,0,25,6) );
+$eRDA1->setBlock( 'Crew Names 16', blockConcat($eData,1,25,6) );
+$eRDA1->setBlock( 'Crew Names 17', blockConcat($eData,2,25,6) );
+$eRDA1->setBlock( 'Crew Names 18', blockConcat($eData,3,25,6) );
+$eRDA1->setBlock( 'Crew Names 19', blockConcat($eData,4,25,6) );
+$eRDA1->setBlock( 'Crew Names 20', blockConcat($eData,5,25,6) );
+$eRDA1->setBlock( 'Notes 4', blockConcat($eData,6,25,6) );
 
-$eRDA1->setBlock( 'Crew 5', blockConcat($eData,0,31,5) );
-$eRDA1->setBlock( 'Crew Names 21', blockConcat($eData,1,31,5));
-$eRDA1->setBlock( 'Crew Names 22', blockConcat($eData,2,31,5) );
-$eRDA1->setBlock( 'Crew Names 23', blockConcat($eData,3,31,5) );
-$eRDA1->setBlock( 'Crew Names 24', blockConcat($eData,4,31,5) );
-$eRDA1->setBlock( 'Crew Names 25', blockConcat($eData,5,31,5) );
-$eRDA1->setBlock( 'Notes 5', blockConcat($eData,6,31,5) );
+$eRDA1->setBlock( 'Crew 5', blockConcat($eData,0,31,6) );
+$eRDA1->setBlock( 'Crew Names 21', blockConcat($eData,1,31,6));
+$eRDA1->setBlock( 'Crew Names 22', blockConcat($eData,2,31,6) );
+$eRDA1->setBlock( 'Crew Names 23', blockConcat($eData,3,31,6) );
+$eRDA1->setBlock( 'Crew Names 24', blockConcat($eData,4,31,6) );
+$eRDA1->setBlock( 'Crew Names 25', blockConcat($eData,5,31,6) );
+$eRDA1->setBlock( 'Notes 5', blockConcat($eData,6,31,6) );
 
 
 
