@@ -5,6 +5,8 @@ include_once 'config.php';
 include_once 'Classes/PHPExcel.php';
 include_once 'functions/functions.php';
 
+date_default_timezone_set ( 'America/Chicago' );
+
 set_time_limit(0);
 $time_start = microtime(true);
 
@@ -239,7 +241,7 @@ $eRDA3->setBlock( 'Date 3',dateConvert($eData->getCell('D44')->getCalculatedValu
 $eRDA3->setBlock( 'Date 4',dateConvert($eData->getCell('E44')->getCalculatedValue()) );
 $eRDA3->setBlock( 'Date 5',dateConvert($eData->getCell('F44')->getCalculatedValue()) );
 
-$eRDA3->setBlock( 'Line One',$eData->getCell('A73')->getCalculatedValue() );
+$eRDA3->setBlock( 'Line  1',$eData->getCell('A73')->getCalculatedValue() );
 $eRDA3->setBlock( 'Crew Names 1',$eData->getCell('B73')->getCalculatedValue() );
 $eRDA3->setBlock( 'Crew Names 2',$eData->getCell('C73')->getCalculatedValue() );
 $eRDA3->setBlock( 'Crew Names 3',$eData->getCell('D73')->getCalculatedValue() );
@@ -247,7 +249,7 @@ $eRDA3->setBlock( 'Crew Names 4',$eData->getCell('E73')->getCalculatedValue() );
 $eRDA3->setBlock( 'Crew Names 5',$eData->getCell('F73')->getCalculatedValue() );
 $eRDA3->setBlock( 'Notes 1',$eData->getCell('G73')->getCalculatedValue() );
 
-$eRDA3->setBlock( 'Line Two',$eData->getCell('A74')->getCalculatedValue() );
+$eRDA3->setBlock( 'Line  2',$eData->getCell('A74')->getCalculatedValue() );
 $eRDA3->setBlock( 'Crew Names 6',$eData->getCell('B74')->getCalculatedValue() );
 $eRDA3->setBlock( 'Crew Names 7',$eData->getCell('C74')->getCalculatedValue() );
 $eRDA3->setBlock( 'Crew Names 8',$eData->getCell('D74')->getCalculatedValue() );

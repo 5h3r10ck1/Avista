@@ -10,7 +10,7 @@ $eFile = 'Electric Crew.xlsx';
 
 $eSheetName = 'Sheet1';
 
-$gFile = 'CDA_Gas_Crew.xls';
+$gFile = 'CDA_Gas_Crew.xlsx';
 
 $gSheetName = 'Schedule';
 

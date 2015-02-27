@@ -5,6 +5,9 @@ include_once 'config.php';
 include_once 'Classes/PHPExcel.php';
 include_once 'functions/functions.php';
 
+date_default_timezone_set ( 'America/Chicago' );
+
+
 set_time_limit(0);
 $time_start = microtime(true);
 
@@ -136,13 +139,13 @@ $gRDA1->setBlock( 'Crew Names 19', blockConcat($gData,6,25,6) );
 $gRDA1->setBlock( 'Crew Names 20', blockConcat($gData,7,25,6) );
 $gRDA1->setBlock( 'Notes 4', blockConcat($gData,8,25,6) );
 
-$gRDA1->setBlock( 'Crew 5', blockConcatNWS($gData,2,31,2).blockConcatNWS($gData,2,33,2) );
-$gRDA1->setBlock( 'Crew Names 21', blockConcatNWS($gData,3,31,2).blockConcatNWS($gData,3,33,2));
-$gRDA1->setBlock( 'Crew Names 22', blockConcatNWS($gData,4,31,2).blockConcatNWS($gData,4,33,2) );
-$gRDA1->setBlock( 'Crew Names 23', blockConcatNWS($gData,5,31,2).blockConcatNWS($gData,5,33,2) );
-$gRDA1->setBlock( 'Crew Names 24', blockConcatNWS($gData,6,31,2).blockConcatNWS($gData,6,33,2) );
-$gRDA1->setBlock( 'Crew Names 25', blockConcatNWS($gData,7,31,2).blockConcatNWS($gData,7,33,2) );
-$gRDA1->setBlock( 'Notes 5', blockConcatNWS($gData,8,31,2).blockConcatNWS($gData,8,33,2) );
+$gRDA1->setBlock( 'Crew 5', blockConcatNWS($gData,2,31,2).'<br>'.blockConcatNWS($gData,2,33,2) );
+$gRDA1->setBlock( 'Crew Names 21', blockConcatNWS($gData,3,31,2).'<br>'.blockConcatNWS($gData,3,33,2));
+$gRDA1->setBlock( 'Crew Names 22', blockConcatNWS($gData,4,31,2).'<br>'.blockConcatNWS($gData,4,33,2) );
+$gRDA1->setBlock( 'Crew Names 23', blockConcatNWS($gData,5,31,2).'<br>'.blockConcatNWS($gData,5,33,2) );
+$gRDA1->setBlock( 'Crew Names 24', blockConcatNWS($gData,6,31,2).'<br>'.blockConcatNWS($gData,6,33,2) );
+$gRDA1->setBlock( 'Crew Names 25', blockConcatNWS($gData,7,31,2).'<br>'.blockConcatNWS($gData,7,33,2) );
+$gRDA1->setBlock( 'Notes 5', blockConcatNWS($gData,8,31,2).'<br>'.blockConcatNWS($gData,8,33,2) );
 
 
 
