@@ -330,11 +330,11 @@ $eRDA3->setBlock( 'New Block 49',$eData->getCell('F83')->getCalculatedValue() );
 $eRDA3->setBlock( 'New Block 50',$eData->getCell('G83')->getCalculatedValue() );
 
 $eRDA3->setBlock( 'Crew 4', blockConcat($eData,0,84,12) );
-$eRDA3->setBlock( 'Crew Names 16', blockConcatInline($eData,1,84,12) );
-$eRDA3->setBlock( 'Crew Names 17', blockConcatInline($eData,2,84,12) );
-$eRDA3->setBlock( 'Crew Names 18', blockConcatInline($eData,3,84,12) );
-$eRDA3->setBlock( 'Crew Names 19', blockConcatInline($eData,4,84,12) );
-$eRDA3->setBlock( 'Crew Names 20', blockConcatInline($eData,5,84,12) );
+$eRDA3->setBlock( 'Crew Names 16', blockConcat($eData,1,84,12) );
+$eRDA3->setBlock( 'Crew Names 17', blockConcat($eData,2,84,12) );
+$eRDA3->setBlock( 'Crew Names 18', blockConcat($eData,3,84,12) );
+$eRDA3->setBlock( 'Crew Names 19', blockConcat($eData,4,84,12) );
+$eRDA3->setBlock( 'Crew Names 20', blockConcat($eData,5,84,12) );
 $eRDA3->setBlock( 'Notes 4', blockConcat($eData,6,84,12) );
 
 $eRDA3->setBlock( 'Message',$eData->getCell('A97')->getCalculatedValue() );
