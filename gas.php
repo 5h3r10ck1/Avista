@@ -173,7 +173,7 @@ $gRDA2->setBlock( 'Date 4',dateConvert($gData->getCell('G43')->getCalculatedValu
 $gRDA2->setBlock( 'Date 5',dateConvert($gData->getCell('H43')->getCalculatedValue()) );
 
 
-$gRDA2->setBlock( 'Line 1',$gData->getCell('C44')->getCalculatedValue() );
+$gRDA2->setBlock( 'Line  1',$gData->getCell('C44')->getCalculatedValue() );
 $gRDA2->setBlock( 'Crew Names 1',$gData->getCell('D44')->getCalculatedValue() );
 $gRDA2->setBlock( 'Crew Names 2',$gData->getCell('E44')->getCalculatedValue() );
 $gRDA2->setBlock( 'Crew Names 3',$gData->getCell('F44')->getCalculatedValue() );
@@ -182,7 +182,7 @@ $gRDA2->setBlock( 'Crew Names 5',$gData->getCell('H44')->getCalculatedValue() );
 $gRDA2->setBlock( 'Notes 1',$gData->getCell('I44')->getCalculatedValue() );
 
 
-$gRDA2->setBlock( 'Line 2',$gData->getCell('C45')->getCalculatedValue() );
+$gRDA2->setBlock( 'Line  2',$gData->getCell('C45')->getCalculatedValue() );
 $gRDA2->setBlock( 'Crew Names 6',$gData->getCell('D45')->getCalculatedValue() );
 $gRDA2->setBlock( 'Crew Names 7',$gData->getCell('E45')->getCalculatedValue() );
 $gRDA2->setBlock( 'Crew Names 8',$gData->getCell('F45')->getCalculatedValue() );
