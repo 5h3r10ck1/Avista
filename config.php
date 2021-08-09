@@ -2,9 +2,9 @@
 
 $server = '10.0.1.17';
 
-$user = 'AvistaRDA';
+$user = '*';
 
-$password = 'trms';
+$password =  '*';
 
 $eFile = 'Electric Crew.xlsx';
 
